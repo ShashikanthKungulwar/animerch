@@ -1,0 +1,36 @@
+.cart aside{
+    position: fixed;
+    left: 0px;
+    top:250px;
+    width:12rem;
+    background-color: #f0f0fc;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 2rem;
+}
+.cart aside h3{
+    color:#224957;
+}
+.cart main{
+    grid-gap: 2rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3,1fr);
+    margin: 3rem 18rem;
+}
+
+.cart aside button
+{
+    background: #7064e5;
+    border: 1px solid #7064e5;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 20px;
+    margin: auto;
+    transition: all .3s ease-in-out;
+}
+.cart aside button:hover{
+    color: #7064e5;
+    background-color: white;
+}

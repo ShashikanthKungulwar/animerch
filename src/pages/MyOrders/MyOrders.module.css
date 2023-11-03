@@ -1,0 +1,38 @@
+
+
+.ordersContainer
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.ordersContainer div
+{
+    color:#224957;;
+    text-align: center;
+}
+
+.orders
+{
+    margin-bottom:30px ;
+}
+.orders table
+{
+    color: black;
+    width: 60vw;
+}
+.orders table th,td{
+    background-color: #f7f7f7;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 10px;
+    padding:5px 50px;
+}
+.orders table td:first-child
+{
+    text-align: left;
+    width: 350px;
+}
+.orders table th{
+    border-bottom: 2px solid black;
+}

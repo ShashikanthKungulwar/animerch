@@ -1,0 +1,68 @@
+.home aside{
+    position: fixed;
+    left: 0px;
+    top:250px;
+    width:12rem;
+    background-color: #f0f0fc;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 12px;
+}
+.home aside h3{
+    color:#224957;
+}
+.home aside input[type="range"]
+{
+    background-color: #7064e5;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 6px;
+    transform: scale(1);
+    width: 90%;
+}
+.home aside input[type="checkbox"]
+{
+    border-radius: 0.25rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+    width: 1rem;
+}
+.home aside *
+{
+    margin-bottom: 0px;
+}
+
+.home aside div{
+    display: grid;
+    place-items: start;
+    gap: 7px;
+}
+.home form
+{
+    /* display: block; */
+    text-align: center;
+}
+.home form input
+    {
+        background: #f4f6f8!important;
+        border: 1px solid #7064e5;
+        border-radius: 10px;
+        box-sizing: border-box;
+        color: #7064e5!important;
+        font-size: 1.2em;
+        font-weight: 400;
+        line-height: 1.5;
+        margin: 1em 0!important;
+        outline: none;
+        padding: 12px;
+        width: 23rem;
+    }
+    
+.home main{
+    grid-gap: 2rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3,1fr);
+    margin: 3rem 18rem;
+}
